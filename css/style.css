@@ -1,0 +1,114 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* ensures footer sits at bottom */
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    to right,
+    #6a0dad,
+    #87cefa
+  ); /* purple → light blue */
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: rgba(106, 13, 173, 0.9); /* semi-transparent purple */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Navigation bar */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #87cefa; /* light blue hover */
+}
+
+/* Section styling */
+section {
+  background-color: white;
+  margin: 30px auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Special styling for Register and Login pages */
+section h2 {
+  color: #6a0dad;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form input:focus {
+  border-color: #6a0dad;
+  outline: none;
+}
+
+form button {
+  background-color: #6a0dad;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: none;
+}
+
+form button:hover {
+  background-color: #87cefa;
+  color: #333;
+}
+
+/* Profile image styling */
+img {
+  border-radius: 50%;
+  border: 3px solid #6a0dad;
+  margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: rgba(106, 13, 173, 0.9);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto; /* pushes footer to bottom */
+}
